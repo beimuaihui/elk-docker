@@ -132,6 +132,7 @@ ADD ./logstash-beats.key /etc/pki/tls/private/logstash-beats.key
 ADD ./02-beats-input.conf /etc/logstash/conf.d/02-beats-input.conf
 ADD ./10-syslog.conf /etc/logstash/conf.d/10-syslog.conf
 ADD ./11-nginx.conf /etc/logstash/conf.d/11-nginx.conf
+ADD ./13-aliyun-cdn-log.conf /etc/logstash/conf.d/13-aliyun-cdn-log.conf
 ADD ./30-output.conf /etc/logstash/conf.d/30-output.conf
 
 # patterns
